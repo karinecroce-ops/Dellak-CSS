@@ -61,3 +61,42 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
+.cardapio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.card h3 {
+    color: #8d4e2f;
+    margin-bottom: 12px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card span {
+    font-weight: bold;
+    color: #8d4e2f;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+#destaque {
+    background-image: url("imagem-fundo.jpg");
+    background-size: cover;
+    background-position: center;
+}

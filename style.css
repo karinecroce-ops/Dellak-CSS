@@ -121,14 +121,7 @@ footer {
     font-size: 22px;
 }
 
-.cardapio .card {
-    border: 1px solid #d7ccc8;
-}
-
-.cardapio article {
+.card {
     background-color: white;
-}
-
-.cardapio article h3 {
-    color: #8d4e2f;
+    border: 1px solid #d7ccc8;
 }

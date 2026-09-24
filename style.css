@@ -100,3 +100,19 @@ footer {
     background-size: cover;
     background-position: center;
 }
+.card h3 {
+    color: #8d4e2f;
+    font-size: 22px;
+}
+
+.cardapio .card {
+    border: 1px solid #d7ccc8;
+}
+
+.cardapio article {
+    background-color: white;
+}
+
+.cardapio article h3 {
+    color: #8d4e2f;
+}
